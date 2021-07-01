@@ -3,9 +3,11 @@
 
 約3年後,東日本大震災やリーマンショック後の世のあり方を考えない一部社員に幻滅し, 精神的な葛藤の上少数派の世界,大学院への進学を決意しました. 私が数学で最も得意な分野が抽象的な代数学であり, 大学院入試に受かるため一度学部課程の数学を復習し,演習を積みました.こうした紆余曲折的な挑戦や人生経験の末, 修士論文や数学のプレゼンテーションができる人間に成長できました.
 </ul>
-
+<br>
+<br>
+<br>
 ・Pheumonia[Kaggle Notebook上で稼働するPytorchによる肺炎検知アプリケーション]
-
+<ul>
 Kaggle Notebook(旧Kernel)でディープラーニングを実装しました。Pytorchを主に使っていて、他にはnumpy, pandas, matplotlib, torchvision, Orderdict, tqdmをインポートしています。演算装置はGPUです。
 データセットは胸部のレントゲン写真です。あらかじめ訓練データと検証データ、テストデータに分かれています。
 教師あり学習になります。入力したデータに対してテンソル化して、images, labelsから学習モデルを作ることになります。最終的にNormalとPheumonia(肺炎)の可能性を棒グラフ化します。
@@ -18,9 +20,12 @@ vgg16は13層のCNNと3層の全結合層からなるライブラリであり、
 この後は棒グラフを出力する関数を設定し、データを恣意的に選んで肺炎の可能性を棒グラフで出力します。
 
 成果として、医学的知見がなくとも、容易に可能性を検知できる点だと考えています。
-
+</ul>
+<br>
+<br>
+<br>
 ・React-Typescript-Firebase[Firestoreと連動したReact/Typescriptのユーザー認証アプリケーション]
-
+<ul>
 Typescript, React, Firebaseを用いてログインなどの認証操作を行うアプリケーションを作りました。
 
 Cloud Firestore,Authentication,Hosting機能とReact Hooks/TypeScriptを使ってToDoアプリのハンズオンを行います。具体的にはReact-router, react-dom, material-uiなどをインポートし, ReactとFirebase(Firestore)を連動して、レンダリングによりFirebaseのデータベース、Cloud Firestoreを操作し、タスク操作を行ってユーザー認証を行うようにします。
@@ -34,7 +39,7 @@ Pytorchを使って、データセットCIFAR-10を使った学習モデルか�
 Anacondaで仮想環境を構築し、Herokuにてデプロイを行いました。
 
 別件でGoogle Cloud Platformにより、仮想マシンを構築し、VMインスタンスを作成、Google App Engineでデプロイしました。
-
+</ul>
 <!---
 yudaiyamashita/yudaiyamashita is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
