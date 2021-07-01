@@ -8,6 +8,7 @@
 <br>
 ・Pheumonia[Kaggle Notebook上で稼働するPytorchによる肺炎検知アプリケーション]
 <br>
+<br>
 <du>
 Kaggle Notebook(旧Kernel)でディープラーニングを実装しました。Pytorchを主に使っていて、他にはnumpy, pandas, matplotlib, torchvision, Orderdict, tqdmをインポートしています。演算装置はGPUです。
 データセットは胸部のレントゲン写真です。あらかじめ訓練データと検証データ、テストデータに分かれています。
@@ -26,6 +27,7 @@ vgg16は13層のCNNと3層の全結合層からなるライブラリであり、
 <br>
 <br>
 ・React-Typescript-Firebase[Firestoreと連動したReact/Typescriptのユーザー認証アプリケーション]
+<br>
 <br>
 <du>
 Typescript, React, Firebaseを用いてログインなどの認証操作を行うアプリケーションを作りました。
