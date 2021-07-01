@@ -26,6 +26,7 @@ vgg16は13層のCNNと3層の全結合層からなるライブラリであり、
 <br>
 <br>
 ・React-Typescript-Firebase[Firestoreと連動したReact/Typescriptのユーザー認証アプリケーション]
+<br>
 <du>
 Typescript, React, Firebaseを用いてログインなどの認証操作を行うアプリケーションを作りました。
 
