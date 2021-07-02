@@ -4,8 +4,7 @@
 
 約3年後,東日本大震災やリーマンショック後の世のあり方を考えない一部社員に幻滅し, 精神的な葛藤の上少数派の世界,大学院への進学を決意しました. 私が数学で最も得意な分野が抽象的な代数学であり, 大学院入試に受かるため一度学部課程の数学を復習し,演習を積みました.こうした紆余曲折的な挑戦や人生経験の末, 修士論文や数学のプレゼンテーションができる人間に成長できました.
 </ul>
-<br>
-<br>
+
 
 # Web Skill
 <br>
@@ -38,22 +37,23 @@ Typescript, React, Firebaseを用いてログインなどの認証操作を行�
 
 Cloud Firestore,Authentication,Hosting機能とReact Hooks/TypeScriptを使ってToDoアプリのハンズオンを行います。具体的にはReact-router, react-dom, material-uiなどをインポートし, ReactとFirebase(Firestore)を連動して、レンダリングによりFirebaseのデータベース、Cloud Firestoreを操作し、タスク操作を行ってユーザー認証を行うようにします。
 
-開発環境：言語 Typescript ライブラリ React, @material-ui, etc. データベース Firebase サーバー Google Cloud Platform
-内容：ログイン認証、Todo管理アプリ
-企画背景：Reactとデータベース(Firestore)との連動を学習するため、実装しました。
+開発環境：言語 Typescript ライブラリ React, @material-ui, etc. データベース Firebase サーバー Google Cloud Platform<br>
+内容：ログイン認証、Todo管理アプリ<br>
+企画背景：Reactとデータベース(Firestore)との連動を学習するため、実装しました。<br>
   
 ### 3.[Pytorchによる、CIFAR-10を使った学習モデルによる画像認識アプリ](https://github.com/yudaiyamashita/Pytorch_CNN-Heroku)
 
 Pytorchを使って、データセットCIFAR-10を使った学習モデルからCNN、畳み込みニューラルネットワークで画像認識を行います。「ファイルを選択」ボタンから入力された画像データから送信ボタンを押すと、推論結果を「〇％で・・・です」のように高い確率順に3つ出力します。(蛙、飛行機、犬など)
-
-ミニバッチ法と自分で設定した層構造によりラーニングを行います。
-
+<br>
+ミニバッチ法と自分で設定した層構造によりラーニングを行います。<br>
+<br>
 Anacondaで仮想環境を構築し、Herokuにてデプロイを行いました。
-
+<br>
+  <br>
 別件でGoogle Cloud Platformにより、仮想マシンを構築し、VMインスタンスを作成、Google App Engineでデプロイしました。
-
-開発環境：言語 Python ライブラリ Pytorch numpy pandas, パッケージ Anaconda, サーバー　Heroku
-内容：ファイル選択ボタンを押すと, 入力された画像から、分類し高い確率順に推論結果を出力する。
+<br>
+開発環境：言語 Python ライブラリ Pytorch numpy pandas, パッケージ Anaconda, サーバー　Heroku <br>
+内容：ファイル選択ボタンを押すと, 入力された画像から、分類し高い確率順に推論結果を出力する。<br>
 企画背景：Deep learning,CNNを学習するためにUdemyで学習し、実装しました。
 
 </du>
