@@ -10,7 +10,7 @@
 # Web Skill
 <br>
 
-### 1.Pheumonia[Kaggle Notebook上で稼働するPytorchによる肺炎検知アプリケーション]
+### 1.[Kaggle Notebook上で稼働するPytorchによる肺炎検知アプリケーション](https://github.com/yudaiyamashita/Pheumonia)
 <br>
 <br>
 <du>
@@ -30,7 +30,7 @@ vgg16は13層のCNNと3層の全結合層からなるライブラリであり、
 <br>
 <br>
 <br>
-### 2.React-Typescript-Firebase[Firestoreと連動したReact/Typescriptのユーザー認証アプリケーション]
+### 2.[Firestoreと連動したReact/Typescriptのユーザー認証アプリケーション](https://github.com/yudaiyamashita/React_Typescript_Firebase)
 <br>
 <br>
 <du>
@@ -38,7 +38,11 @@ Typescript, React, Firebaseを用いてログインなどの認証操作を行�
 
 Cloud Firestore,Authentication,Hosting機能とReact Hooks/TypeScriptを使ってToDoアプリのハンズオンを行います。具体的にはReact-router, react-dom, material-uiなどをインポートし, ReactとFirebase(Firestore)を連動して、レンダリングによりFirebaseのデータベース、Cloud Firestoreを操作し、タスク操作を行ってユーザー認証を行うようにします。
 
-### 3.Pytorch-CNN-Heroku 〔Pytorchによる、CIFAR-10を使った学習モデルによる画像認識アプリ〕
+開発環境：言語 Typescript ライブラリ React, @material-ui, etc. データベース Firebase サーバー Google Cloud Platform
+内容：ログイン認証、Todo管理アプリ
+企画背景：Reactとデータベース(Firestore)との連動を学習するため、実装しました。
+  
+### 3.[Pytorchによる、CIFAR-10を使った学習モデルによる画像認識アプリ](https://github.com/yudaiyamashita/Pytorch_CNN-Heroku)
 
 Pytorchを使って、データセットCIFAR-10を使った学習モデルからCNN、畳み込みニューラルネットワークで画像認識を行います。「ファイルを選択」ボタンから入力された画像データから送信ボタンを押すと、推論結果を「〇％で・・・です」のように高い確率順に3つ出力します。(蛙、飛行機、犬など)
 
@@ -47,6 +51,11 @@ Pytorchを使って、データセットCIFAR-10を使った学習モデルか�
 Anacondaで仮想環境を構築し、Herokuにてデプロイを行いました。
 
 別件でGoogle Cloud Platformにより、仮想マシンを構築し、VMインスタンスを作成、Google App Engineでデプロイしました。
+
+開発環境：言語 Python ライブラリ Pytorch numpy pandas, パッケージ Anaconda, サーバー　Heroku
+内容：ファイル選択ボタンを押すと, 入力された画像から、分類し高い確率順に推論結果を出力する。
+企画背景：Deep learning,CNNを学習するためにUdemyで学習し、実装しました。
+
 </du>
   
 </body>
