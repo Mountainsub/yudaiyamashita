@@ -6,8 +6,10 @@
 </ul>
 <br>
 <br>
+
 # Web Skill
 <br>
+
 ### 1.Pheumonia[Kaggle Notebook上で稼働するPytorchによる肺炎検知アプリケーション]
 <br>
 <br>
