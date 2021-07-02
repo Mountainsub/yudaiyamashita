@@ -1,3 +1,12 @@
+<!Documenttype HTML>
+<style>
+        body {
+            background-color: #00ff00
+        }
+ 
+
+ </style>
+<body>
 <ul>
 理念を持って今を生きる性格で, チャレンジ精神と好奇心の強い気質で自己研鑽しつつ生きてきました. 例として難解な内容の修士論文がきちんと書けるような人材へと自己実現です. 当初は医学部への進学を考えていましたが, 私はあくまで受験を定期テストの延長上のものと考えており,  予備校の空気感や携帯端末やインターネット発展の影響を全く考えない受験システムに嫌気がさし, 長考の末今の時代先見性があると考え数学科への進学を決意しました.　
 
@@ -44,6 +53,8 @@ Anacondaで仮想環境を構築し、Herokuにてデプロイを行いました
 
 別件でGoogle Cloud Platformにより、仮想マシンを構築し、VMインスタンスを作成、Google App Engineでデプロイしました。
 </du>
+  
+</body>
 <!---
 yudaiyamashita/yudaiyamashita is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
