@@ -10,8 +10,7 @@
 <br>
 
 ### 1.[Kaggle Notebook上で稼働するPytorchによる肺炎検知アプリケーション](https://github.com/yudaiyamashita/Pheumonia)
-<br>
-<br>
+
 <du>
 Kaggle Notebook(旧Kernel)でディープラーニングを実装しました。Pytorchを主に使っていて、他にはnumpy, pandas, matplotlib, torchvision, Orderdict, tqdmをインポートしています。演算装置はGPUです。
 データセットは胸部のレントゲン写真です。あらかじめ訓練データと検証データ、テストデータに分かれています。
@@ -52,6 +51,7 @@ Anacondaで仮想環境を構築し、Herokuにてデプロイを行いました
   <br>
 別件でGoogle Cloud Platformにより、仮想マシンを構築し、VMインスタンスを作成、Google App Engineでデプロイしました。
 <br>
+  <br>
 開発環境：言語 Python ライブラリ Pytorch numpy pandas, パッケージ Anaconda, サーバー　Heroku <br>
 内容：ファイル選択ボタンを押すと, 入力された画像から、分類し高い確率順に推論結果を出力する。<br>
 企画背景：Deep learning,CNNを学習するためにUdemyで学習し、実装しました。
