@@ -1,12 +1,4 @@
-<!Documenttype HTML>
-<style>
-        body {
-            background-color: #00ff00
-        }
- 
-
- </style>
-<body>
+# Let me introduce myself  
 <ul>
 理念を持って今を生きる性格で, チャレンジ精神と好奇心の強い気質で自己研鑽しつつ生きてきました. 例として難解な内容の修士論文がきちんと書けるような人材へと自己実現です. 当初は医学部への進学を考えていましたが, 私はあくまで受験を定期テストの延長上のものと考えており,  予備校の空気感や携帯端末やインターネット発展の影響を全く考えない受験システムに嫌気がさし, 長考の末今の時代先見性があると考え数学科への進学を決意しました.　
 
@@ -14,8 +6,9 @@
 </ul>
 <br>
 <br>
+# Web Skill
 <br>
-・Pheumonia[Kaggle Notebook上で稼働するPytorchによる肺炎検知アプリケーション]
+### 1.Pheumonia[Kaggle Notebook上で稼働するPytorchによる肺炎検知アプリケーション]
 <br>
 <br>
 <du>
@@ -35,7 +28,7 @@ vgg16は13層のCNNと3層の全結合層からなるライブラリであり、
 <br>
 <br>
 <br>
-・React-Typescript-Firebase[Firestoreと連動したReact/Typescriptのユーザー認証アプリケーション]
+### 2.React-Typescript-Firebase[Firestoreと連動したReact/Typescriptのユーザー認証アプリケーション]
 <br>
 <br>
 <du>
@@ -43,7 +36,7 @@ Typescript, React, Firebaseを用いてログインなどの認証操作を行�
 
 Cloud Firestore,Authentication,Hosting機能とReact Hooks/TypeScriptを使ってToDoアプリのハンズオンを行います。具体的にはReact-router, react-dom, material-uiなどをインポートし, ReactとFirebase(Firestore)を連動して、レンダリングによりFirebaseのデータベース、Cloud Firestoreを操作し、タスク操作を行ってユーザー認証を行うようにします。
 
-・Pytorch-CNN-Heroku 〔Pytorchによる、CIFAR-10を使った学習モデルによる画像認識アプリ〕
+### 3.Pytorch-CNN-Heroku 〔Pytorchによる、CIFAR-10を使った学習モデルによる画像認識アプリ〕
 
 Pytorchを使って、データセットCIFAR-10を使った学習モデルからCNN、畳み込みニューラルネットワークで画像認識を行います。「ファイルを選択」ボタンから入力された画像データから送信ボタンを押すと、推論結果を「〇％で・・・です」のように高い確率順に3つ出力します。(蛙、飛行機、犬など)
 
